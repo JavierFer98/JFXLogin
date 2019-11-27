@@ -1,0 +1,45 @@
+.boton{
+	-fx-background-color: orange;
+	-fx-border-color: orange;
+	-fx-text-fill: white
+}
+
+.boton:hover{
+	-fx-background-color: red;
+	-fx-border-color: red;
+	-fx-text-fill: white;	 
+}
+.img{
+	-fx-background-image: url("a.png");
+}
+.fondo{
+	-fx-border-radius: 10px;
+    -fx-border-width: 5px;
+    -fx-border-color: black;
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+}
+.cambios{
+		-fx-background-image: url("e.jpg");
+		-fx-background-repeat: no-repeat;
+		-fx-background-size: cover, auto;
+	
+}
+.cambioss{
+		-fx-background-image: url("f.jpg");
+		-fx-background-repeat: no-repeat;
+		-fx-background-size: cover, auto;
+	
+}
+.cambiosss{
+		-fx-background-image: url("g.jpg");
+		-fx-background-repeat: no-repeat;
+		-fx-background-size: cover, auto;
+	
+}
+.cambiossss{
+		-fx-background-image: url("h.jpg");
+		-fx-background-repeat: no-repeat;
+		-fx-background-size: cover, auto;
+	
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="550.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Pane fx:id="panel1" prefHeight="442.0" prefWidth="320.0" styleClass="cambios" stylesheets="@application.css" />
+      <Pane fx:id="panel2" prefHeight="433.0" prefWidth="550.0" styleClass="cambioss" />
+      <Pane fx:id="panel3" prefHeight="433.0" prefWidth="550.0" styleClass="cambiosss" />
+      <Pane fx:id="panel4" prefHeight="435.0" prefWidth="550.0" />
+      <Pane prefHeight="442.0" prefWidth="320.0" styleClass="fondo">
+         <children>
+            <Pane id="img" layoutX="60.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" styleClass="img" stylesheets="@application.css" />
+            <Button id="boton" layoutX="125.0" layoutY="364.0" mnemonicParsing="false" text="Entrar">
+               <styleClass>
+                  <String fx:value="boton" />
+                  <String fx:value="boton:hover" />
+               </styleClass>
+            </Button>
+            <PasswordField layoutX="88.0" layoutY="323.0" />
+            <TextField layoutX="86.0" layoutY="298.0" />
+         </children>
+      </Pane>
+      <Text layoutX="115.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
