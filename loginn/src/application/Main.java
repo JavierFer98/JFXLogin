@@ -13,11 +13,10 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			
-//			BorderPane root = new BorderPane();
+			
 			FXMLLoader loader=new FXMLLoader(Main.class.getResource("Vista.fxml"));
             AnchorPane pane=loader.load();
 			Scene scene = new Scene(pane);
-//			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {

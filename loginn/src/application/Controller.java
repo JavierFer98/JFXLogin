@@ -19,19 +19,9 @@ public class Controller {
 		@FXML
 		private Pane panel4;
 		
-//		@FXML
-//		private URL location;
-	//	
-//		@FXML
-//		private ResourceBundle resources;
-		
 
 		public void initialize() {
 
-//			panel1.setStyle("-fx-background-image: url('e.jpg')");
-//			panel2.setStyle("-fx-background-image: url('f.jpg')");
-//			panel3.setStyle("-fx-background-image: url('g.jpg')");
-//			panel4.setStyle("-fx-background-image: url('h.jpg')");
 
 			backgroundAnimation();
 
