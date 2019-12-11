@@ -6,13 +6,15 @@ import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
-
+/**
+ * @author Javier
+ * @see Controlador
+ */
 
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			
 			
 			FXMLLoader loader=new FXMLLoader(Main.class.getResource("Vista.fxml"));
             AnchorPane pane=loader.load();
